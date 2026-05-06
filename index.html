@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Spider-Man</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    color:white;
+
+    background: url("minimalist-spiderman-3840x2160.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* NAV */
+nav{
+    background:rgba(0,0,0,0.7);
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:red;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* HERO */
+.hero{
+    height:350px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    background:rgba(0,0,0,0.6);
+    padding:20px;
+}
+
+/* CONTENIDO */
+.contenido{
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+
+.caja{
+    flex:1;
+    background:rgba(0,0,0,0.7);
+    padding:15px;
+}
+
+/* EXTRA */
+.extra{
+    padding:20px;
+    text-align:center;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="galeria.html">Galería</a>
+<a href="peliculas.html">Películas</a>
+<a href="contacto.html">Contacto</a>
+<a href="#" onclick="window.open('creadores.html','ventana','width=600,height=400'); return false;">
+Creador
+</a>
+</nav>
+
+<div class="hero">
+<h1>Spider-Man<br>El héroe de Nueva York</h1>
+</div>
+
+<div class="contenido">
+
+<div class="caja">
+<h2>Historia</h2>
+<p>
+Peter Parker obtiene poderes tras ser mordido por una araña radiactiva.
+Decide usar sus habilidades para proteger a la ciudad.
+</p>
+</div>
+
+<div class="caja">
+<h2>Habilidades</h2>
+<ul>
+<li>Trepar paredes</li>
+<li>Sentido arácnido</li>
+<li>Super fuerza</li>
+<li>Telarañas</li>
+</ul>
+</div>
+
+</div>
+
+<div class="extra">
+<h2>Villanos famosos</h2>
+<p>Duende Verde, Venom, Doctor Octopus, Electro...</p>
+</div>
+
+<div class="extra">
+<h2>Frase icónica</h2>
+<p>"Un gran poder conlleva una gran responsabilidad"</p>
+<!-- El CSS en index.html lo use para darle mas diseño y que
+ no se viera como una pagina comun. En body cambie el fondo,
+ el color del texto y el tipo de letra. En nav hice la barra de
+ navegación de arriba y cambie el color de los enlaces para que
+ combinaran con la tematica de Spider-Man. Despues usé hero para
+ hacer la parte principal de la pagina mas grande y llamativa.
+ Tambien use contenido y caja para ordenar la información en diferentes
+ secciones y que no quedara todo junto. Finalmente use extra para agregar
+ mas informacion y que la pagina no se viera vacia. -->
+</div>
+
+</body>
+</html>
